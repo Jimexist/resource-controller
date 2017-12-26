@@ -1,4 +1,8 @@
-# resource-controller
+# Resource Controller
+
+[![Build Status](https://travis-ci.org/caicloud/resource-controller.svg?branch=master)](https://travis-ci.org/caicloud/resource-controller)
+[![GoDoc](http://godoc.org/github.com/caicloud/resource-controller?status.svg)](http://godoc.org/github.com/caicloud/resource-controller)
+[![Go Report Card](https://goreportcard.com/badge/github.com/caicloud/resource-controller)](https://goreportcard.com/report/github.com/caicloud/resource-controller)
 
 This repository implements a `resource` controller for watching `ResourceClass` resources as
 defined with a `CustomResourceDefinition` (CRD).
@@ -20,7 +24,6 @@ $ kubectl create -f examples/resource-class.yaml
 
 # create a custom resource of type ResourceClass
 $ kubectl create -f examples/resource-class-cpu.yaml
-
 ```
 
 ## Design Proposal
@@ -29,7 +32,7 @@ Here is [design proposal](https://docs.google.com/document/d/1EyOUHah_4hx3QCY0FG
 
 ## Roadmap
 
-- It is still under development now.
+* It is still under development now.
 
 ## Issues and Contributions
 
